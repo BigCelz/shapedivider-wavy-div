@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wavy{
+ background-color: rgb(8, 163, 224) !important;
+ height: 60vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+}
+
+.welcome{
+    display: block !important;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.wavy-btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.wavy-btn:hover{
+    background-color: black !important;
+    color: #FFFFFF;
+}
+
+/* shapedivider css */
+.custom-shape-divider-bottom-1722281287 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722281287 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 221px;
+}
+
+.custom-shape-divider-bottom-1722281287 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1722281287 svg {
+        width: calc(135% + 1.3px);
+        height: 160px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1722281287 svg {
+        width: calc(135% + 1.3px);
+        height: 98px;
+    }
+}
